@@ -3,6 +3,7 @@ A multiplayer game: which behave like a distributed system. It’s based on the 
 
 ## Requirements
 1. Java: You can download and install it from (https://java.com/en/)
+2. To make the system distributed we used The Java Remote Method Invocation API (RMI)
 
 ## Run the system
 1. Compile all the .java files in src/. In bin/ you already have the compiled versions (.class)
