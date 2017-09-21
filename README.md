@@ -7,8 +7,8 @@ A multiplayer game: which behave like a distributed system. It’s based on the 
 
 ## Run the system
 1. Compile all the .java files in src/. In bin/ you already have the compiled versions (.class)
-2. Run the AuthServer: java AuthServer. This component is the server of the game and it will authenticate and register the players willing to participate to the game.
-3. Each player willing to partecipate need to run: java Node. This will open the game window with a white textBox where he must type the IP of the AuthServer host.
+2. Run the AuthServer: ```java AuthServer```. This component is the server of the game and it will authenticate and register the players willing to participate to the game.
+3. Each player willing to partecipate need to run: ```java Node```. This will open the game window with a white textBox where he must type the IP of the AuthServer host.
 4. The game starts after the host server receives the wanted number of players
 
 ![](Screen.png?raw=true "The game")
